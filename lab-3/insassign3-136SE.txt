@@ -1,0 +1,27 @@
+Select an option
+[1] Encrypt text
+[2] Decrypt cypher
+[3] Exit
+1
+Enter text: Hello, how are you?
+Key: ODPNCQEMRZBLXSFKYWATVJGIUH
+Encrypting......
+Encrypted text: MCLLF, MFG OWC UFV?
+
+
+Select an option
+[1] Encrypt text
+[2] Decrypt cypher
+[3] Exit
+2
+Enter cypher: MCLLF, MFG OWC UFV?
+Key: ODPNCQEMRZBLXSFKYWATVJGIUH
+Decrypting......
+Decrypted text: hello, how are you?
+
+
+Select an option
+[1] Encrypt text
+[2] Decrypt cypher
+[3] Exit
+3

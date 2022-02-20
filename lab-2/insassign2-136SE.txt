@@ -1,0 +1,49 @@
+Select an option
+[1] Encrypt text
+[2] Decrypt cypher
+[3] Exit
+1
+Enter text: Hello bill, how are you?
+Shift[-25 to 25]: 10
+Encrypting......
+Encrypted text: Rovvy lsvv, ryg kbo iye?
+
+
+Select an option
+[1] Encrypt text
+[2] Decrypt cypher
+[3] Exit
+2
+Enter cypher: Rovvy lsvv, ryg kbo iye?
+Shift[-25 to 25]: 10
+Decrypting......
+Decrypted text: Hello bill, how are you?
+
+
+Select an option
+[1] Encrypt text
+[2] Decrypt cypher
+[3] Exit
+1
+Enter text: meet me after the toga party
+Shift[-25 to 25]: -5
+Encrypting......
+Encrypted text: hzzo hz vaozm ocz ojbv kvmot
+
+
+Select an option
+[1] Encrypt text
+[2] Decrypt cypher
+[3] Exit
+2
+Enter cypher: hzzo hz vaozm ocz ojbv kvmot
+Shift[-25 to 25]: -5
+Decrypting......
+Decrypted text: meet me after the toga party
+
+
+Select an option
+[1] Encrypt text
+[2] Decrypt cypher
+[3] Exit
+3

@@ -1,0 +1,34 @@
+PLAYFAIR CYPHER
+Select an option
+[1] Encrypt text
+[2] Decrypt cypher
+[3] Exit
+1
+Enter text: hello
+Key: welcome
+Processed text: helxlo
+Matrix:
+w e l c o
+m a b d f
+g h i k n
+p q r s t
+u v x y z
+Encrypting......
+Encrypted text: qablcw
+
+PLAYFAIR CYPHER
+Select an option
+[1] Encrypt text
+[2] Decrypt cypher
+[3] Exit
+2
+Enter cypher: qablcw
+Key: welcome
+Matrix:
+w e l c o
+m a b d f
+g h i k n
+p q r s t
+u v x y z
+Decrypting......
+Decrypted text: helxlo

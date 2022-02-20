@@ -1,0 +1,30 @@
+POLYALPHABETIC CYPHER
+Select an option
+[1] Encrypt text
+[2] Decrypt cypher
+[3] Exit
+1
+Enter text: ManchesterUnited
+Key: cris
+Encrypting......
+Encrypted text: OrvujvalgiCfkkmv
+
+
+POLYALPHABETIC CYPHER
+Select an option
+[1] Encrypt text
+[2] Decrypt cypher
+[3] Exit
+2
+Enter cypher: OrvujvalgiCfkkmv
+Key: cris
+Decrypting......
+Decrypted text: ManchesterUnited
+
+
+POLYALPHABETIC CYPHER
+Select an option
+[1] Encrypt text
+[2] Decrypt cypher
+[3] Exit
+3
