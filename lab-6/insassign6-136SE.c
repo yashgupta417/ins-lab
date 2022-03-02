@@ -13,7 +13,7 @@ int key[3][3]={{17,7,5},{21,18,21},{2,2,19}};
 int keyInv[3][3]={{8,17,1},{17,21,12},{22,22,11}};
 
 char* encrypt(char* text){
-	int len=strlen(text)-1; text[len]='/0';
+	int len=strlen(text)-1; text[len]='\0';
 
     // appending bogus char 'x' if required
     int _len=len+len%keySize;
@@ -44,7 +44,7 @@ char* encrypt(char* text){
 }
 
 char* decrypt(char* cypher){
-	int _len=strlen(cypher)-1; cypher[_len]='/0';
+	int _len=strlen(cypher)-1; cypher[_len]='\0';
 
     int* _text=calloc(_len,sizeof(int));
     char* text=malloc(sizeof(char)*(_len+1));
