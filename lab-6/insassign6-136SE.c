@@ -4,7 +4,7 @@
 #include<ctype.h>
 
 /*
- * Polyalphabetic Cypher
+ * Hill Cypher
  */
 
 int MAX_INPUT=1000;
@@ -16,13 +16,16 @@ char* encrypt(char* text){
 	int len=strlen(text)-1; text[len]='\0';
 
     // appending bogus char 'x' if required
-    int _len=len+len%keySize;
+    int noOfBogus=(keySize-len%keySize)%keySize;
+    int _len=len+noOfBogus;
     char* _text=malloc(sizeof(char)*(_len+1));
     strcpy(_text,text);
-    for(int i=0;i<=len%keySize;i++){
+    for(int i=0;i<noOfBogus;i++){
         _text[len+i]='x';
     }
     _text[_len]='\0';
+    printf("After adding bogus chars: ");
+    puts(_text);
 
     int* _cypher=calloc(_len,sizeof(int));
     char* cypher=malloc(sizeof(char)*(_len+1));
@@ -53,20 +56,20 @@ char* decrypt(char* cypher){
 	for(int i=0;i<_len;i+=3){
         for(int j=0;j<3;j++){
             for(int k=0;k<3;k++){
-                _text[i+j]+=keyInv[k][j]*(tolower(_text[i+k])-97);
+                _text[i+j]+=keyInv[k][j]*(tolower(cypher[i+k])-97);
             }
         }
 	}
 
     for(int i=0;i<_len;i++){
-        text[i]=(_text[i]+26)%26+65;
+        text[i]=(_text[i]+26)%26+97;
     }
 	text[_len]='\0';
 	return text;
 }
 
 int job(){
-	printf("POLYALPHABETIC CYPHER\nSelect an option\n[1] Encrypt text\n[2] Decrypt cypher\n[3] Exit\n");
+	printf("HILL CYPHER\nSelect an option\n[1] Encrypt text\n[2] Decrypt cypher\n[3] Exit\n");
 	int choice;
 	scanf("%d",&choice);getchar();
 	char* cypher, *text;

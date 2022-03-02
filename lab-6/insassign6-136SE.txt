@@ -1,0 +1,56 @@
+HILL CYPHER
+Select an option
+[1] Encrypt text
+[2] Decrypt cypher
+[3] Exit
+1
+Enter text: helloworld
+After adding bogus chars: helloworldxx
+Encrypting......
+Encrypted text: RNQFJNTKMINZ
+
+HILL CYPHER
+Select an option
+[1] Encrypt text
+[2] Decrypt cypher
+[3] Exit
+2
+Enter cypher: RNQFJNTKMINZ
+Decrypting......
+Decrypted text: helloworldxx
+
+HILL CYPHER
+Select an option
+[1] Encrypt text
+[2] Decrypt cypher
+[3] Exit
+3
+
+
+HILL CYPHER
+Select an option
+[1] Encrypt text
+[2] Decrypt cypher
+[3] Exit
+1
+Enter text: PayMoreMoney
+After adding bogus chars: PayMoreMoney
+Encrypting......
+Encrypted text: RXLMGBKMSPDH
+
+HILL CYPHER
+Select an option
+[1] Encrypt text
+[2] Decrypt cypher
+[3] Exit
+2
+Enter cypher: RXLMGBKMSPDH
+Decrypting......
+Decrypted text: paymoremoney
+
+HILL CYPHER
+Select an option
+[1] Encrypt text
+[2] Decrypt cypher
+[3] Exit
+3
