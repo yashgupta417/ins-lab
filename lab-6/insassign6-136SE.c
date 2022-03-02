@@ -44,21 +44,24 @@ char* encrypt(char* text){
 }
 
 char* decrypt(char* cypher){
-	int len=strlen(cypher);
-    int key_len=strlen(key)-1;
-    char* text=malloc(sizeof(char)*len);
-    for(int i=0,j=0;i<len;i++,j++){
-        if (!isalpha(cypher[i])){
-                text[i]=cypher[i];
-				j--;
-                continue;
+	int _len=strlen(cypher)-1; cypher[_len]='/0';
+
+    int* _text=calloc(_len,sizeof(int));
+    char* text=malloc(sizeof(char)*(_len+1));
+
+    // matrix multiplication
+	for(int i=0;i<_len;i+=3){
+        for(int j=0;j<3;j++){
+            for(int k=0;k<3;k++){
+                _text[i+j]+=keyInv[k][j]*(tolower(_text[i+k])-97);
+            }
         }
-        int begin=isupper(cypher[i]) ? 65 : 97;
-        int begin_k=isupper(key[j%key_len]) ? 65 : 97;
-    
-        text[i]=begin+(cypher[i]-begin-(key[j%key_len]-begin_k)+26)%26;
+	}
+
+    for(int i=0;i<_len;i++){
+        text[i]=(_text[i]+26*100)%26+65;
     }
-    text[len]='\0';
+	text[_len]='\0';
 	return text;
 }
 
