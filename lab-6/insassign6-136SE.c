@@ -37,7 +37,7 @@ char* encrypt(char* text){
 	}
 
     for(int i=0;i<_len;i++){
-        cypher[i]=(_cypher[i]+26*100)%26+65;
+        cypher[i]=(_cypher[i]+26)%26+65;
     }
 	cypher[_len]='\0';
 	return cypher;
@@ -59,7 +59,7 @@ char* decrypt(char* cypher){
 	}
 
     for(int i=0;i<_len;i++){
-        text[i]=(_text[i]+26*100)%26+65;
+        text[i]=(_text[i]+26)%26+65;
     }
 	text[_len]='\0';
 	return text;
