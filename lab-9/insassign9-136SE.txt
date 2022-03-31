@@ -1,0 +1,33 @@
+Enter value of G(primitive root of P) and P(prime): 9 23
+Enter private key for Client A: 4
+Enter private key for Client B: 3
+
+
+Private key of Client A: 4
+Client A generating its public key..........
+Generated public key of Client A: 6
+
+Private key of Client A: 3
+Client B generating its public key..........
+Generated public key of Client B: 16
+
+Passing public key of Client B to Client A and vice-versa......
+
+Generating secret key at Client A.......
+Secret key generated at Client A: 9
+
+Generating secret key at Client B.......
+Secret key generated at Client B: 9
+
+Encrypt message at Client A.....
+Message: Hello world!
+Encrypted Message: 22d1460825ad94ac6a2fe8898e5c8d61
+Encryption Done!
+
+
+Sending message.......
+
+
+Decrypting message at Client B......
+Decrypted Messsage: Hello world!
+Decryption Done!

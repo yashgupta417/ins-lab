@@ -1,0 +1,43 @@
+DES using OpenSSL
+Select an option
+[1] Encrypt
+[2] Decrypt
+[3] Generate Key
+[4] Exit
+3
+3253ca26714a08bb
+Key generated successfully!
+
+DES using OpenSSL
+Select an option
+[1] Encrypt
+[2] Decrypt
+[3] Generate Key
+[4] Exit
+1
+Enter Key: 3253ca26714a08bb
+Using plaintext.txt....
+950e54c16426639b81bdc044b5ce2fe467231edf0b9dce8cef813d77c356
+7d0f7277c4ac099592c2388d3d26e85dfb78f6a4a6aa5611e40c7bff3f4a
+b8d182bb3a87db02ec3be4b9
+Encryption Done!
+
+DES using OpenSSL
+Select an option
+[1] Encrypt
+[2] Decrypt
+[3] Generate Key
+[4] Exit
+2
+Enter Key: 3253ca26714a08bb
+Using cypher.enc....
+I am Yash Gupta, 2K18/SE/136, from branch SE, in INS course at DTU
+Decryption Done!
+
+DES using OpenSSL
+Select an option
+[1] Encrypt
+[2] Decrypt
+[3] Generate Key
+[4] Exit
+4
