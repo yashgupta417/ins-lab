@@ -1,0 +1,13 @@
+Enter message: hello
+
+Public variables: p=11 q=5 a=3
+Private key: s=4
+Public key: v=3
+
+Digitally signing the message.....
+Signature: (e,y)=(56,1)
+
+Verifying message......
+Original hash: 56
+Calculated hash: 56
+Successfully Verified!
