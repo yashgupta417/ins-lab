@@ -1,0 +1,19 @@
+DECENTRALISED KEY CONTROL...
+
+N2: 11, Value of f(N2): 22
+f(N2) from initiator A: 22
+
+KEY DISTRIBUTION COMPLETED.
+
+USING SHARED KEY FOR COMMUNICATION.
+plaintext:
+Hello World!
+
+cypher:
+Salted__2
+P'���x�w�Ֆ��[��j*J
+
+decrypt text:
+Hello World!
+
+COMMUNICATION DONE SUCCESSFULLY
